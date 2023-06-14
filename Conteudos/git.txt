@@ -1,0 +1,7 @@
+Git: sistema de controle de versão distribuído
+GitHub:  é uma plataforma baseada na web que fornece hospedagem para repositórios Git remotos.
+
+
+Repositório: lugar onde você guarda coisas
+local: Maquina local (Git)
+remoto: Nuvem Online (GitHub)
