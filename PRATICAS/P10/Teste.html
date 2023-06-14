@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+
+    <style>
+        body{
+            background-color: gray;
+        }
+
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora corporis, nam vel maiores ut deserunt enim recusandae temporibus cupiditate quam optio neque facere dolorem nihil quisquam. Harum tempore non praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptate odio nisi asperiores, harum ex quasi possimus id similique facilis tenetur, quo voluptatem reprehenderit dolore fugit et quae nihil suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente ut hic sint autem quod fugiat nesciunt minima consequatur voluptatem? Explicabo veritatis nemo sed iusto, magnam vitae dolorum voluptate nobis!</p>
+        <picture>
+            <source media="(max-width:600px )" srcset="imagens/irina-blok-pq.jpg"> <!--max-width: limite maximo ate onde aquela imagem vai aparecer-->
+            <!--min-width: limite minino ate onde aquela imagem vai ficar-->
+            <img src="imagens/irina-blok.jpg" alt="foto">
+        </picture>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora corporis, nam vel maiores ut deserunt enim recusandae temporibus cupiditate quam optio neque facere dolorem nihil quisquam. Harum tempore non praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptate odio nisi asperiores, harum ex quasi possimus id similique facilis tenetur, quo voluptatem reprehenderit dolore fugit et quae nihil suscipit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente ut hic sint autem quod fugiat nesciunt minima consequatur voluptatem? Explicabo veritatis nemo sed iusto, magnam vitae dolorum voluptate nobis!</p>
+    </main>
+</body>
+</html>

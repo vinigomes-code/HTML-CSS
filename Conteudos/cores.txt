@@ -1,0 +1,19 @@
+Cores Primarias:
+VERMELHO
+AMARELO
+AZUL
+
+Cores Secundarias:
+VERDE
+LARANJA
+VIOLETA
+
+Cores Terciarias
+Amarelo-esverdeado
+Amarelo-alaranjado
+
+azul-esverdeado
+azul-arroxeado
+
+vermelho-alaranjado
+vermelho-arroxeado

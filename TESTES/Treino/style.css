@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor01: #555555;
+    --cor012: #2A2A2A;
+    --cor02: #022819;
+    --cor03: #3A7743;
+    --cor04: #75A05D;
+    --cor05: #7A7A7A;
+    --cortexto: #EDE7E7;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header{
+    background-image: linear-gradient(to right, var(--cor012), var(--cor01), var(--cor012));
+    width: auto;
+    height: 130px;
+    
+}
+
+nav{
+    text-align: right;
+    margin-top: -85px;
+    margin-right: 20px;
+}
+
+header > img{
+    width: 400px;
+    height: 80px;
+    text-align: left;
+    padding: 25px 0px 0px 50px;
+}
+
+nav.menu_principal > a{
+    color: white;
+    text-decoration: none;
+    margin: 16px;
+    font-size: 15px;
+}
+
+nav.menu_principal > a:hover{
+    color: var(--cor04);
+    text-decoration: underline;
+}
+
+main{
+
+    height: 1120px;
+    width: 1209px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+main > article > h1{
+    color: var(--cor02);
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+}
+
+main > article > p{
+    text-align: center;
+    font-size: 16px;
+    color: var(--cor03);
+}
+
+.submenu{
+    padding-top: 150px;
+}
+
+.submenu > a{
+    margin: 16px;
+    text-decoration: none;
+    color: var(--cor05);
+}
+
+.submenu > a:hover{
+    color: var(--cor04);
+}
+
+.fotos_artigos{
+    border-radius: 80px 80px 0px 0px;
+    height: 300px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+section{
+    margin-top: 0px;
+    background-color: var(--cortexto);
+    height: 250px;
+    width: 360px;
+    border-radius: 0px 0px 80px 80px;
+    padding: 20px;
+}
+
+section > h1{
+    color: var(--cor01);
+    text-align: left;
+    padding: 20px 20px 0px 20px;
+    font-size: 16px;
+}
+
+section > p.subtexto{
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+section > p.descricao{
+    font-size: 14px;
+    padding: 20px 20px 0px 20px;
+    color: var(--cor05);
+    margin-bottom: 20px;
+}
+
+section > a{
+    text-decoration: underline;
+    color: var(--cor01);
+    padding: 0px 0px 0px 20px;
+
+}
+
+section > a:hover{
+    color: var(--cor04);
+}
+
+aside{
+    display: inline-block;
+    margin-left: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+

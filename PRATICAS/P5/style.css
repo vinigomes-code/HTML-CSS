@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+.teste2{
+    background-image: linear-gradient(to bottom, #4A61CB 10%, #7F3CCA, #B734A8 , #F34D54, #FFC550);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #0e0f16b6; /*HORIZONTAL-VERTICAL-BLUR*/
+    width: 600px; /*largura*/
+    padding: 10px;/*espaço entre o conteúdo e a borda*/
+    margin: auto;
+}
+body{
+    font-family: 'Germania One', cursive;
+    background-color: black;
+    font-weight: lighter;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #4A61CB 10%, #7F3CCA, #B734A8 , #F34D54, #FFC550);
+    background-attachment: fixed;
+}
+p{
+    text-align: justify;
+
+}
+ul{
+    text-align: left;
+}
+
+.teste{
+    background-image: linear-gradient(to bottom, #4A61CB 10%, #7F3CCA, #B734A8 , #F34D54, #FFC550);
+    border-radius: 20px;
+    padding: 10px;
+
+}

@@ -1,0 +1,29 @@
+Sites para pegar fontes com imagens:
+
+https://www.whatfontis.com/
+https://www.fontsquirrel.com/
+https://www.myfonts.com/
+
+
+o aninhamento é onde as informações são organizadas em camadas ou onde os objetos contêm outros objetos semelhantes. 
+
+Modelo de Caixa:
+O modelo de caixa CSS é essencialmente uma caixa que envolve cada elemento HTML. Consiste em: margens, bordas, preenchimento e o conteúdo real. 
+
+Content - O conteúdo da caixa, onde aparecem texto e imagens
+height - Altura do conteudo
+width - Largura do conteudo
+Padding - espaçamento entre o conteudo e a borda
+border - contorna o preenchimento do conteudo
+margin - espaço externo da caixa do conteudo
+outline cotorno da borda
+
+Tipos de Caixa:
+Box-level: refere-se a elementos que são considerados caixas retangulares distintas no layout da página. Esses elementos têm uma largura e altura próprias e ocupam espaço na página.
+A caixa irá quebrar em uma nova linha.
+EX:div, h1-h6, p, main, header, nav, article, aside, footer, form, video
+
+Inline-level: refere-se a elementos que fluem com o texto dentro de um parágrafo ou uma linha de texto. Esses elementos não têm uma largura e altura próprias, eles ocupam apenas o espaço necessário para o conteúdo que eles contêm. 
+EX: span, a, code, small, strong, em, sup-sub, label, button, input, select
+
+Use agente: é sempre o navegador que tá exibindo

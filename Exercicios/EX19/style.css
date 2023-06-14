@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*
+    Em HTML é id = CSS é '#' : especifica uma identificação única para o elemento
+    Em HTML é class = em CSS é '.' especifica um ou mais nomes de classe para um elemento .
+
+    IDs têm a prioridade mais alta, seguidos pelas classes e, por fim, os estilos padrão dos elementos têm a prioridade mais baixa.
+
+    É importante notar que, se você tiver vários seletores com a mesma prioridade aplicados a um elemento (por exemplo, múltiplos seletores de classe ou múltiplos IDs), a ordem em que eles são declarados no CSS pode influenciar a prioridade. O seletor que aparecer por último no arquivo CSS terá a maior prioridade.
+
+*/
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #1e402f;
+}
+
+h1#principal {
+    text-align: center;
+
+    color: white;
+}
+
+h2{
+    color: #3c805e;
+}
+
+.basico{
+    color: #3c805e;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: #80793c;
+}
+
+.avancado{
+    color: #803c3c;
+}
+
+.destaque{
+    background-color: rgba(143, 143, 76, 0.63);
+}

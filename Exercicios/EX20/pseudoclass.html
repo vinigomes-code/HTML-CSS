@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgreen;
+            border: 1px solid black; /*tamanho; tipo; cor*/
+            text-align: center;
+            height: 200px; /*Altura*/
+            width: 200px; /*Largura*/
+            /*outline cotorno da borda*/
+        }
+        /*
+        Em CSS, pseudoclasses são palavras-chave que podem ser adicionadas a seletores para selecionar e estilizar elementos específicos com base em seu estado ou posição no documento. Pseudoclasses são precedidas por dois pontos (:) e podem ser usadas para segmentar elementos que não podem ser selecionados com seletores regulares.
+        */
+        div:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>

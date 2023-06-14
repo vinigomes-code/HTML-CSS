@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url(fonts/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to top, #043D1D 30%, #289C5A);
+    height: auto;
+    width:  auto;
+    margin: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+#titulo_principal{
+    margin: 0px;
+    padding: 60px;
+    font-size: 30px;
+}
+
+header > p{
+    margin: 0px 0px 50px 0px;
+}
+
+nav{
+    text-align: left;
+    padding: 10px;
+
+}
+
+nav > a{
+    margin: 8px;
+    padding: 8px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.548);
+}
+
+nav > a:hover{
+    background-color: #267e4fa8;
+    border-radius: 5px;
+}
+
+a{
+    color: #163325;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+section{
+    border: 16px solid rgb(233, 230, 195);
+    padding: 32px;
+}
+
+#history > h1{
+    font-weight: bolder;
+    color: #083D27;
+    font-family: 'android';
+    text-align: left;
+    font-size: 30px;
+}
+
+span > a:hover{
+    color: #267e4fa8;
+}
+
+.text{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h2{
+    background-color: #8CE4B3;
+    color: #083D27;
+    font-family: 'android';
+}
+
+.negrito{
+    background-color: #8CE4B3;
+    color: #345745;
+    font-weight: bolder;
+}
+
+aside > p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.foto{
+    text-align: center;
+}
+
+.video{
+    border: 16px solid #043D1D;
+    text-align: center;
+    padding: 0px;
+}
+
+#caixa > h3{
+    background-color: #124829;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+#caixa{
+    margin: 10px 400px 10px 400px;
+    height: 500px;
+    width: 1000px;
+    padding: 10px;
+    
+}
+
+li{
+    text-decoration: underline;
+}
+
+#extra{
+    background-color: #7FDFA9;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer{
+    background-color: #032C12;
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
