@@ -3,23 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y;
-            background-size: cover; /*altura e larugura / contain / auto / cover*/
-
+            background-repeat: no-repeat;
+            background-size: cover;*/ /*altura e larugura / contain / auto / cover*/
+           
             /*cover: a imagem de plano de fundo será redimensionada para cobrir todo o elemento, sem se preocupar com a proporção original.*/
             /*contain:a imagem de plano de fundo será redimensionada para caber totalmente dentro do elemento, mantendo a proporção original.*/
+
+            /*background-attachment: fixed;*/
+
+            /*Shorthand - Background
+                color > imagem > position > repeat > [size] > attachment
+                size tá na regra, porém não funciona colocar ele no shorthand        
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat
+            fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px; /*largura maxima*/
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
