@@ -1,141 +1,144 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'android';
-    src: url(fonts/idroid.otf);
-    font-weight: normal;
-    font-style: normal;
-}
 
+:root{
+    --cor01: #555555;
+    --cor012: #2A2A2A;
+    --cor02: #022819;
+    --cor03: #3A7743;
+    --cor04: #75A05D;
+    --cor05: #7A7A7A;
+    --cortexto: #EDE7E7;
+}
 
 *{
     margin: 0px;
     padding: 0px;
 }
 
-header{
-    text-align: center;
-    background-image: linear-gradient(to top, #043D1D 30%, #289C5A);
-    height: auto;
-    width:  auto;
-    margin: 0px;
-    color: white;
+body{
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+    font-weight: bold;
 }
 
-#titulo_principal{
-    margin: 0px;
-    padding: 60px;
-    font-size: 30px;
-}
-
-header > p{
-    margin: 0px 0px 50px 0px;
-}
-
-nav{
-    text-align: left;
-    padding: 10px;
-
-}
-
-nav > a{
-    margin: 8px;
-    padding: 8px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.548);
-}
-
-nav > a:hover{
-    background-color: #267e4fa8;
-    border-radius: 5px;
-}
-
-a{
-    color: #163325;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-section{
-    border: 16px solid rgb(233, 230, 195);
-    padding: 32px;
-}
-
-#history > h1{
-    font-weight: bolder;
-    color: #083D27;
-    font-family: 'android';
-    text-align: left;
-    font-size: 30px;
-}
-
-span > a:hover{
-    color: #267e4fa8;
-}
-
-.text{
-    font-size: 18px;
-    text-align: justify;
-    text-indent: 30px;
-}
-
-h2{
-    background-color: #8CE4B3;
-    color: #083D27;
-    font-family: 'android';
-}
-
-.negrito{
-    background-color: #8CE4B3;
-    color: #345745;
-    font-weight: bolder;
-}
-
-aside > p{
-    font-size: 18px;
-    text-align: justify;
-}
-
-.foto{
-    text-align: center;
-}
-
-.video{
-    border: 16px solid #043D1D;
-    text-align: center;
-    padding: 0px;
-}
-
-#caixa > h3{
-    background-color: #124829;
-    color: white;
-    padding: 10px;
-    border-radius: 10px 10px 0px 0px;
-
-}
-
-#caixa{
-    margin: 10px 400px 10px 400px;
-    height: 500px;
-    width: 1000px;
-    padding: 10px;
+header{
+    background-image: linear-gradient(to right, var(--cor012), var(--cor01), var(--cor012));
+    width: auto;
+    min-height: 130px;
     
 }
 
-li{
+nav{
+    text-align: right;
+    margin-top: -85px;
+    margin-right: 20px;
+}
+
+header > img{
+    max-width: 400px;
+    max-height: 80px;
+    text-align: left;
+    padding: 25px 0px 0px 50px;
+}
+
+nav.menu_principal > a{
+    color: white;
+    text-decoration: none;
+    margin: 16px;
+    font-size: 15px;
+}
+
+nav.menu_principal > a:hover{
+    color: var(--cor04);
     text-decoration: underline;
 }
 
-#extra{
-    background-color: #7FDFA9;
-    border-radius: 0px 0px 10px 10px;
+main{
+    max-height: 1100px;
+    max-width: 1209px;
+    margin: auto;
+    margin-top: 100px;
 }
 
-footer{
-    background-color: #032C12;
+main > article > h1{
+    color: var(--cor02);
     text-align: center;
-    padding: 1px;
-    color: white;
+    font-size: 3em;
+    padding: 20px;
 }
+
+main > article > p{
+    text-align: center;
+    font-size: 16px;
+    color: var(--cor03);
+}
+
+.submenu{
+    padding-top: 150px;
+}
+
+.submenu > a{
+    margin: 16px;
+    text-decoration: none;
+    color: var(--cor05);
+}
+
+.submenu > a:hover{
+    color: var(--cor04);
+}
+
+.fotos_artigos{
+    border-radius: 80px 80px 0px 0px;
+    height: 300px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+section{
+    margin-top: 0px;
+    background-color: var(--cortexto);
+    height: 250px;
+    width: 360px;
+    border-radius: 0px 0px 80px 80px;
+    padding: 20px;
+}
+
+section > h1{
+    color: var(--cor01);
+    text-align: left;
+    padding: 20px 20px 0px 20px;
+    font-size: 16px;
+}
+
+section > p.subtexto{
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+section > p.descricao{
+    font-size: 14px;
+    padding: 20px 20px 0px 20px;
+    color: var(--cor05);
+    margin-bottom: 20px;
+}
+
+section > a{
+    text-decoration: underline;
+    color: var(--cor01);
+    padding: 0px 0px 0px 20px;
+
+}
+
+section > a:hover{
+    color: var(--cor04);
+}
+
+aside{
+    display: inline-block;
+    margin-left: auto;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
