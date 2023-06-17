@@ -42,15 +42,30 @@ header > img{
 }
 
 nav.menu_principal > a{
+    position: relative;
     color: white;
     text-decoration: none;
     margin: 16px;
     font-size: 15px;
 }
 
+nav.menu_principal > a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--cor04);
+    transition: .3s;
+}
+
+nav.menu_principal > a:hover::before{
+    width: 100%;
+}
+
 nav.menu_principal > a:hover{
     color: var(--cor04);
-    text-decoration: underline;
 }
 
 main{
