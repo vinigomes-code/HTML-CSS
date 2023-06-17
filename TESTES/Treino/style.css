@@ -55,8 +55,8 @@ nav.menu_principal > a:hover{
 
 main{
 
-    height: 1120px;
-    width: 1209px;
+    max-height: 1120px;
+    max-width: 1209px;
     margin: auto;
     margin-top: 100px;
 }
