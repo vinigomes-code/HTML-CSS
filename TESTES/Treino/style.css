@@ -158,3 +158,43 @@ aside{
     max-width: 1000px;
 }
 
+footer{
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    background-color: #2A2A2A;
+    background-image: url('imagens/Untitled-design-3-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+}
+
+footer > p.pt1{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+
+
+}
+
+footer > p.pt2{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+
+
+}
+
+footer > p.pt3{
+    color: white;
+    text-align: right;
+    padding-top: 10px;
+
+}
+
+
+
