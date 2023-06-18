@@ -50,7 +50,6 @@ section.parte1{
 }
 
 section.parte1 > p{
-    min-height: 300px;
     margin-left: 30px;
     margin-top: 5px;
     padding-bottom: 8px;
