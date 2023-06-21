@@ -41,3 +41,11 @@ A min-width propriedade define a largura mínima de um elemento.
 Se o conteúdo for menor que a largura mínima, a largura mínima será aplicada.
 
 Se o conteúdo for maior que a largura mínima, a min-widthpropriedade não terá efeito.
+
+
+TABELAS
+As tabelas HTML permitem que os desenvolvedores da Web organizem os dados em linhas e colunas.
+
+NÃO PODE MONTAR SITES USANDO UMA ESTRTURA DE TABELA
+
+
