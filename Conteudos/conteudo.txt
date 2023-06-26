@@ -49,3 +49,8 @@ As tabelas HTML permitem que os desenvolvedores da Web organizem os dados em lin
 NÃO PODE MONTAR SITES USANDO UMA ESTRTURA DE TABELA
 
 
+POSITION RELATIVE
+Quando um elemento tem a propriedade position definida como relative, ele é posicionado em relação à sua posição normal. No entanto, você pode usar as propriedades top, bottom, left e right para mover o elemento em relação à sua posição original. Por exemplo
+
+POSITION ABSOLUTE
+Por outro lado, quando um elemento tem a propriedade position definida como absolute, ele é posicionado em relação ao elemento pai mais próximo que tenha uma posição definida 

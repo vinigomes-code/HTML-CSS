@@ -12,6 +12,14 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         td, th{ 
@@ -22,6 +30,23 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky; /*é usada para posicionar elementos em uma página da web de acordo com o deslocamento da janela ou do contêiner que os contém. */
+            top: -1px; /*Dizendo que vai colar na parte */
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd){ 
+            background-color: white;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(even) { /*O seletor corresponde a cada elemento que é o enésimo filho de seu pai e funciona pulando um ou mais colocando n*/
+        /*Pode usar odd(impar:2n-1) ou even(par):2n*/
+            background-color: lightgray;
+            text-decoration: underline;
         }
 
         td.num{
@@ -35,6 +60,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION(LEGENDA DA TABELA)
             TABLE HEAD(THEAD) : Não é obrigatorio
                 TR, TD, TH
             TABLE BODY(TBODY)
@@ -43,10 +69,11 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th> <!--TH é para titulos-->
+                <th scope="col" style="width: 50px;">População</th> <!--scope: especifica se uma célula de cabeçalho é um cabeçalho para uma coluna, linha ou grupo de colunas ou linhas.-->
             </tr>
         </thead>
         <tbody>
@@ -161,10 +188,21 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td><strong>207.883.639</strong></td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>207.883.639</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ipsam nesciunt illo est voluptatum et quis, in tempora iure ullam velit vel! Repudiandae corporis, facilis vitae quibusdam reprehenderit autem itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero accusamus totam nemo veniam, enim illum reiciendis est autem laborum. Dolore voluptatum officiis tempore aperiam sit rem odio nostrum optio at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium iste, cupiditate, eveniet dolore, dolorem at earum consequatur consequuntur unde nobis excepturi aliquid quam labore incidunt magni iusto optio explicabo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt commodi accusantium, nemo beatae, voluptatibus deserunt tempore, voluptate praesentium voluptates nam mollitia. Consequatur fugit doloribus reiciendis veritatis culpa nihil mollitia perspiciatis.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ipsam nesciunt illo est voluptatum et quis, in tempora iure ullam velit vel! Repudiandae corporis, facilis vitae quibusdam reprehenderit autem itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero accusamus totam nemo veniam, enim illum reiciendis est autem laborum. Dolore voluptatum officiis tempore aperiam sit rem odio nostrum optio at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium iste, cupiditate, eveniet dolore, dolorem at earum consequatur consequuntur unde nobis excepturi aliquid quam labore incidunt magni iusto optio explicabo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt commodi accusantium, nemo beatae, voluptatibus deserunt tempore, voluptate praesentium voluptates nam mollitia. Consequatur fugit doloribus reiciendis veritatis culpa nihil mollitia perspiciatis.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ipsam nesciunt illo est voluptatum et quis, in tempora iure ullam velit vel! Repudiandae corporis, facilis vitae quibusdam reprehenderit autem itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero accusamus totam nemo veniam, enim illum reiciendis est autem laborum. Dolore voluptatum officiis tempore aperiam sit rem odio nostrum optio at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium iste, cupiditate, eveniet dolore, dolorem at earum consequatur consequuntur unde nobis excepturi aliquid quam labore incidunt magni iusto optio explicabo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt commodi accusantium, nemo beatae, voluptatibus deserunt tempore, voluptate praesentium voluptates nam mollitia. Consequatur fugit doloribus reiciendis veritatis culpa nihil mollitia perspiciatis.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ipsam nesciunt illo est voluptatum et quis, in tempora iure ullam velit vel! Repudiandae corporis, facilis vitae quibusdam reprehenderit autem itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero accusamus totam nemo veniam, enim illum reiciendis est autem laborum. Dolore voluptatum officiis tempore aperiam sit rem odio nostrum optio at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium iste, cupiditate, eveniet dolore, dolorem at earum consequatur consequuntur unde nobis excepturi aliquid quam labore incidunt magni iusto optio explicabo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt commodi accusantium, nemo beatae, voluptatibus deserunt tempore, voluptate praesentium voluptates nam mollitia. Consequatur fugit doloribus reiciendis veritatis culpa nihil mollitia perspiciatis.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ipsam nesciunt illo est voluptatum et quis, in tempora iure ullam velit vel! Repudiandae corporis, facilis vitae quibusdam reprehenderit autem itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero accusamus totam nemo veniam, enim illum reiciendis est autem laborum. Dolore voluptatum officiis tempore aperiam sit rem odio nostrum optio at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium iste, cupiditate, eveniet dolore, dolorem at earum consequatur consequuntur unde nobis excepturi aliquid quam labore incidunt magni iusto optio explicabo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt commodi accusantium, nemo beatae, voluptatibus deserunt tempore, voluptate praesentium voluptates nam mollitia. Consequatur fugit doloribus reiciendis veritatis culpa nihil mollitia perspiciatis.</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur ipsam nesciunt illo est voluptatum et quis, in tempora iure ullam velit vel! Repudiandae corporis, facilis vitae quibusdam reprehenderit autem itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero accusamus totam nemo veniam, enim illum reiciendis est autem laborum. Dolore voluptatum officiis tempore aperiam sit rem odio nostrum optio at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium iste, cupiditate, eveniet dolore, dolorem at earum consequatur consequuntur unde nobis excepturi aliquid quam labore incidunt magni iusto optio explicabo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt commodi accusantium, nemo beatae, voluptatibus deserunt tempore, voluptate praesentium voluptates nam mollitia. Consequatur fugit doloribus reiciendis veritatis culpa nihil mollitia perspiciatis.</p>
 </body>
 </html>
