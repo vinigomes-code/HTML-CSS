@@ -69,7 +69,11 @@ GET:
 Quando você deseja obter dados de um servidor. Ao usar o método GET, você envia uma solicitação ao servidor para recuperar um recurso específico (por exemplo, uma página da web ou um arquivo) e o servidor responde enviando esse recurso de volta para o cliente.
 Quando você deseja passar parâmetros de consulta (query parameters) para o servidor. Os parâmetros de consulta são anexados à URL na forma de pares chave-valor, permitindo que você envie informações adicionais para o servidor.
 
+É usado para obter algum recurso hospedado no servidor.
+
 POST:
 
 Quando você deseja enviar dados ao servidor para processamento ou armazenamento. Ao usar o método POST, os dados são incluídos no corpo da solicitação HTTP e enviados ao servidor. Esses dados podem ser usados para criar um novo recurso, atualizar um recurso existente ou executar outras ações definidas pelo servidor.
 Quando você precisa enviar uma quantidade significativa de dados. O método POST permite enviar uma carga útil maior do que o método GET, que tem limitações em relação ao tamanho dos dados que podem ser enviados.
+
+É utilizado para enviar dados para o servidor.
