@@ -77,3 +77,9 @@ Quando você deseja enviar dados ao servidor para processamento ou armazenamento
 Quando você precisa enviar uma quantidade significativa de dados. O método POST permite enviar uma carga útil maior do que o método GET, que tem limitações em relação ao tamanho dos dados que podem ser enviados.
 
 É utilizado para enviar dados para o servidor.
+
+
+Media queries
+Uma media query consiste de um media type e pelo menos uma expressão que limita o escopo das folhas de estilo usando media features, tal como largura, altura e cor. Media queries, adicionadas no CSS3, deixam a apresentação do conteúdo adaptado a uma gama especifica de dispositivos não precisando mudar o conteúdo em si.
+
+Em outras palavras, as Media Queries são usadas para tornar as páginas da web responsivas, ou seja, adaptáveis a diferentes tamanhos de tela e dispositivos, como computadores desktop, laptops, tablets e smartphones. Com o uso de Media Queries, os desenvolvedores podem criar layouts e estilos diferentes para diferentes resoluções de tela ou orientações de dispositivos.
