@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){ /*A regra min-width aplica estilos somente quando a largura da tela é igual ou maior do que o valor especificado.*/
+    span#burguer{
+        display: none;
+    }
+
+    nav{
+        display: block;
+    }
+
+    nav > ul > li{
+        display: inline-block;
+    }
+
+    main{
+        width: 768px;
+    }
+}
+
+/*A regra max-width aplica estilos somente quando a largura da tela é menor do que o valor especificado.*/
