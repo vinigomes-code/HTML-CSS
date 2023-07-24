@@ -1,0 +1,7 @@
+Mobile first é um projeto que faz a criação de projetos web e sites primeiro em dispositivos móveis, para depois fazer adaptações para o desktop e outras plataformas, ao contrário do que ainda acontece na maioria das vezes.
+
+Typical Device Breakpoints
+
+Em web design e desenvolvimento, "breakpoints" referem-se a pontos específicos em que o layout de um site ou aplicativo responsivo é ajustado para se adequar a diferentes tamanhos de tela. Os breakpoints são usados para criar uma experiência otimizada para os usuários, independentemente do dispositivo que eles estão usando para acessar o conteúdo, como desktops, laptops, tablets ou smartphones.
+
+"Typical device breakpoints" (pontos de interrupção típicos de dispositivos) são os tamanhos de tela mais comuns em que os desenvolvedores costumam ajustar o layout para atender às necessidades dos diferentes dispositivos. Esses breakpoints podem variar de acordo com as tendências de mercado e as preferências do público-alvo, mas, em geral, alguns dos breakpoints mais comuns são:
