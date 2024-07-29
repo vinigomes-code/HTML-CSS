@@ -1,0 +1,21 @@
+--- Flebox ---
+
+flex-direction:
+row - deitado, main-axis: esquerda para direita; cross-axis: de cima para baixo    
+row-reverse - deitado,main-axis:  direita para esquerda; cross-axis: de cima para baixo    
+column - em pé, main-axis: cima para baixo; cross-axis: esquerda para direita
+column-reverse - em pé, main-axis: baixo para cima; cross-axis: esquerda para direita
+main-start; main-end
+cross-start; cross end
+
+justify-content: alinhamento de acordo com o eixo principal (main-axis)
+justify-content(valores):
+
+flex-start: Primeiro item no main-start
+flex-end: Ultimo no main-end
+center: Alinhado no centro do main
+
+space-between: Primeiro item no main-start, ultimo item no main end e o restante alinhado no meio com
+o espaçamento entre igual.
+space-evenly:os ítens são distribuídos de forma que o espaçamento entre quaisquer dois itens da linha (incluindo entre os ítens e as bordas) seja igual.
+space-around: os ítens são distribuídos na linha com o mesmo espaçamento entre eles.
