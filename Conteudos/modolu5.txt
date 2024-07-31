@@ -18,4 +18,6 @@ center: Alinhado no centro do main
 space-between: Primeiro item no main-start, ultimo item no main end e o restante alinhado no meio com
 o espaçamento entre igual.
 space-evenly:os ítens são distribuídos de forma que o espaçamento entre quaisquer dois itens da linha (incluindo entre os ítens e as bordas) seja igual.
-space-around: os ítens são distribuídos na linha com o mesmo espaçamento entre eles.
+space-around: os ítens são distribuídos na linha com o mesmo espaçamento entre eles. (os espaços do cross ou main start é o mesmo nos outros espaçamentos só que dobrados)
+
+align-content: alinha as linhas de um container flex quando há espaço extra no eixo cruzado. Ou seja, não tem efeito algum dentro dos itens de uma única linha. (SÓ FUNCIONA COM O WRAP ATIVO)
