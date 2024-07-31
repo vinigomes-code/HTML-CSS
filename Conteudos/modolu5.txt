@@ -22,5 +22,9 @@ space-around: os ítens são distribuídos na linha com o mesmo espaçamento ent
 
 align-content: alinha as linhas de um container flex quando há espaço extra no eixo cruzado. Ou seja, não tem efeito algum dentro dos itens de uma única linha. (SÓ FUNCIONA COM O WRAP ATIVO)
 
+Order: specifica a ordem de um item flexível em relação ao restante dos itens flexíveis dentro do mesmo contêiner.
+
+A align-selfpropriedade especifica o alinhamento na direção do bloco para o item selecionado dentro de um flexbox ou contêiner de grade.
+
 
 ### TODO ELEMENTO DENTRO DE UM CONTAINER-FLEX TEM ORDER ZERO
